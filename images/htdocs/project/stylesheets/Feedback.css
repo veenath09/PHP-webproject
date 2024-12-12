@@ -1,0 +1,92 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     outline: none;
+
+}
+
+
+.feedbackdiv{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: url(../images/image14.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 360px;
+    background:rgb(0, 2, 0);
+    box-shadow: 0 0  8px rgb(72, 132, 151);
+    opacity: 0.8;
+}
+
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+form h1{
+    padding: 10px 0;
+
+}
+form.id{
+    position:relative  ;
+}
+
+.id.i{
+    font-size:25px;
+    position: absolute;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-radius: 3px;
+    background: rgb(166, 201, 196);
+    padding: 0 12px;
+    font-size: 1rem;
+
+}
+
+form textarea{
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    background: rgb(166, 201, 196);
+    padding: 0 12px;
+    font-size: 1rem;
+    width: 100%;
+    margin: 5px 0;
+}
+
+form button{
+    margin-top: 5px;
+    border: none;
+    background: rgb(46, 235, 235);
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form input:focus,form textarea:focus{
+    border: 1px solid rgb(92, 20, 92);
+    color: rgb(28, 10, 44);
+    transition: all 0.4s ease;
+
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 5px;
+    color: rgb(15, 22, 112);
+    transition: all 0.4s ease;
+}

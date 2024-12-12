@@ -1,0 +1,141 @@
+body{
+    
+    background: url(../images/safari.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+    background: #fff;
+    width: 740px;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    box-shadow: 2px 5px 20px rgba(119, 119, 0,.5);
+    margin-left: 20%;
+}
+.left-box{
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    width: 25%;
+    height: 110%;
+    background:#923800;
+    box-shadow: 3px 3px 10px rgba(119, 119, 0,.5);
+    border: .1em solid #fff;
+}
+
+nav a{
+    list-style: none;
+    padding: 35px;
+    color: #fff;
+    font-size: 1.1em;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+nav a:hover{
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+nav a:first-child{
+    margin-top: 7px;
+}
+nav a.active{
+    color: #fff;
+}
+
+.right-box{
+    width: 60%;
+    margin-left: 33%;
+    
+}
+.tabshow{
+    transition: all .5s ease-in;
+    width: 80%;
+    position: absolute;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #923800;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+h2{
+    color: #777;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.input,p{
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7em;
+    padding: 7px 0;
+    color: #070707;
+    outline: none;
+}
+
+.btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: #fff;
+    background: #923800;
+    padding: 7px 15px;
+    box-shadow: 8px 2px 4px 0px ;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: .5s;
+}
+.btn:hover{
+    background: burlywood;
+}
+
+.tabshow{
+    display: none;
+}
+
+.btn1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: #fff;
+    background: #923800;
+    padding: 7px 15px;
+    box-shadow: 8px 2px 4px 0px ;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: .5s;
+}
+.btn1:hover{
+    background: burlywood;
+}
+
+
+.bookings .box{
+    height: 60vh;
+    width: 30vw;
+    overflow: scroll;
+
+}
+
+.input_box{
+    width: 50vw;
+    height: 40vh;
+}

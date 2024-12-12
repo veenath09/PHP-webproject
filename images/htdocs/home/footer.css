@@ -1,0 +1,110 @@
+footer {
+    display: flex;
+    height:40vh;
+    width: auto;
+    padding: 10px;
+    color: rgb(5, 26, 45);
+    background-image: url('jung.jpg');
+    position: relative;
+    flex-direction: column;
+    
+  }
+
+  .foot {
+    text-align: center;
+    color: aliceblue;
+  }
+  .foot ul{ 
+    position: absolute;
+    right: 34%;
+    list-style-type: none;
+    margin-top: 8vh;
+    
+  
+
+    
+  }
+  .foot ul li{
+
+    display: inline-block;
+    padding: 5px 10px;
+    right: 10vw;
+
+  }
+  .foot ul li a{
+    color: rgb(15, 44, 69);
+
+
+  }
+
+  .foot ul li a:hover{
+    
+    background-color: #100d0c;
+    color: rgb(12, 14, 15);
+    opacity: 0.7;
+    transition: .4s;
+    transition: background-color ease-in-out;
+    
+}
+
+
+  
+
+
+.foot p{
+  position: absolute;
+  color: rgb(15, 44, 69);
+  right: 46vw;
+
+}
+
+
+  .company {
+    position: flex; /* or 'absolute' depending on your layout needs */
+    bottom: 0px;
+    left: 0px;
+    padding: 10px; /* optional: add padding for better readability */
+    color: #171414;
+
+  }
+
+  .copyright {
+    position: absolute; /* Position at the bottom of the footer */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    opacity: 0.5;}
+
+  .social-icons {
+    position: absolute;
+    display: table-column;
+    align-self: flex-end;
+    padding: px; /* optional: add padding for better readability */
+    color: #171414;
+    right: 0;
+    bottom: 0;
+    
+    list-style-type: none;
+    color: rgb(172, 186, 199);
+    margin-right: 5vw;
+    
+    
+
+  }
+.social-icons p{
+  margin: 4rem 2rem 2rem ;
+
+}
+
+.logos i{
+  padding: 2vh;
+}
+
+.company .img{
+  display: flex;
+  position: absolute;
+  height: 2vh;
+  width: 2vw;
+}
+
+ 

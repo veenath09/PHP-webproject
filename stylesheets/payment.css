@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-image: url(../images/Leopard-Safaris-.webp);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    padding: 50px;
+    align-items: left;
+}
+
+.container form{
+    width: 700px;
+    padding: 40px;
+    background: transparent;
+    border-radius: 10px;
+
+}
+
+form .row{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.row .column{
+    flex: 1 1 250px;
+}
+form .title{
+    font-size: 22px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    
+}
+.column .input-box{
+    margin: 15px 0;
+}
+
+.input-box span{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.input-box input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.column .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.flex .input-box{
+    margin-top: 5px;
+}
+
+.input-box img{
+    height: 50%;
+    width: 90%;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+form .btn{
+    width: 100%;
+    padding: 12px;
+    background: #008000;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+}
+form .btn:hover{
+    background: #326132;
+}
+

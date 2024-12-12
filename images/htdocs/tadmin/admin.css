@@ -1,0 +1,139 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+   
+  }
+  
+  .wrapper {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5%;
+      
+  }
+  
+  .wrap1{
+    flex: 1;  
+    flex-basis: 0; 
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .wrap2{
+    flex: 1;  
+    flex-basis: 0;  
+    display: flex;
+    margin-left: 10%;
+    
+  }
+  
+
+
+  .reservationcontainer {
+    background-color: #fff;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%; 
+  }
+  .acountactivationcontainer {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    width: 50%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+  }
+
+.acountdeactivationcontainer {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  width: 50%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       text-align: center;
+}
+  
+  .adminlogincontainer {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%; 
+    text-align: center;
+  }
+  
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button[type="Activate"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button[type="Deactivate"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+  }
+  table {
+    text-align: center;
+    margin: 0 auto; 
+    width: 100%;      
+  }

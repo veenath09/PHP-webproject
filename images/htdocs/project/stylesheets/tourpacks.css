@@ -1,0 +1,166 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tourpacks {
+    position: relative;
+    background-image: url("../images/test1.jpg");
+    background-size: cover;
+    background-size: 100vw 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;;
+    margin-top: 4rem;
+
+
+}
+
+.tourpacks h1{
+    margin-left: 2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.container {
+    max-width: 80%; 
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+}
+.content {
+    display: flex; 
+    margin-bottom: 2rem;
+}
+.search-bar {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.search-input {
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filters {
+    display: none;
+    width: 20%;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+
+.filterbtn{
+        margin:2rem;
+        
+    }
+    
+
+.filter-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    
+}
+.filter-option {
+    margin-bottom: 0.5rem;
+}
+.tour-packages {
+    flex: 1; 
+    display: grid;
+    grid-auto-rows: minmax(200px, auto); 
+    gap: 1rem;
+}
+.tour-package {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex; 
+    align-items: center; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     
+}
+.tour-package img {
+    width: 15vw;
+    height: 25vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.packageinfo{
+    width: fit-content;
+    margin-left: 4rem;
+    
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .content {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .filters {
+        display: none;
+        width:100%;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+    }
+    .tour-packages {
+        
+        width: 100%;
+        height: 20vh;
+    }
+    .tour-package {
+        flex-direction: column; 
+        
+    }
+
+    .packageinfo{
+        margin-left: 0;
+    }
+
+    .tour-package img{
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+}
+
+    .search-input{
+        width: 40%;
+    }
+}
+

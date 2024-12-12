@@ -1,0 +1,158 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #eee8e8;
+}
+
+
+
+
+.home {
+    background-image: url("jung.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: change 20s infinite ease-in-out ;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #a18e8e;
+    text-shadow: #11171e;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes change{ /*transition of the images in the home page*/
+    0%
+    {
+        background-image: url(pack-11.jpg);
+    }
+    20%
+    {
+        background-image: url(pack-12.jpg);
+    }
+    40%
+    {
+        background-image: url(logo.jpg);
+    }
+    60%
+    {
+        background-image: url(jung.jpg);
+    }
+    80%
+    {
+        background-image: url(slide-1.jpg);
+    }
+    100%
+    {
+        background-image: url(res-det-back.jpg);
+    }
+}
+
+.aboutUs{
+    
+    position:relative;  
+    z-index:1;
+    background-color: #eee8e8;/*background image for about us*/
+    height: 40vh;
+    margin-bottom: 2rem;
+
+}
+
+.box1 {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    background-color: #70717c;
+    margin: 5vw  ;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-small;
+    border-radius: 5%;
+    overflow: scroll;
+    
+}
+
+.box1::-webkit-scrollbar {
+    display: none;
+}
+
+.tourdisplay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-wrapper{
+    display: inline-block;
+}
+
+.tour-ad {
+
+    font-family: Arial, sans-serif;
+    max-width: 28vw;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  .tour-ad h2 {
+    color: #333;
+    text-align: center;
+  }
+  .tour-ad p {
+    color: #666;
+    line-height: 1.6;
+  }
+  .tour-ad .price {
+    color: #e8491d;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .tour-ad .cta-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .tour-ad img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  

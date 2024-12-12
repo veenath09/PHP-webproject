@@ -1,0 +1,114 @@
+header {
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding:18px;
+    background-color: #817526; /* Set the background color of the header */
+}
+
+/* Style the navigation menu */
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 0; /* Updated to remove the gap between list items */
+    line-height: 2px;
+    text-align: center;
+    display: inline-block; /* Change display to inline-block for padding */
+    color: white; /* Set the text color of the menu items */
+}
+
+nav ul li a{
+    color: rgb(33, 25, 25);
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 26px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #191b36;
+    color: #78c9dd;
+    opacity: 0.6;
+    transition: .4s;
+    transition: ease-out;
+}
+
+.toggle-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+body {
+    padding-top: 26px; 
+}
+
+.logo-container {
+  width: fit-content; /* Allow image to adjust to its natural width */
+  overflow: hidden; /* Hide any part of the image that overflows the container */
+}
+
+.logo-container img {
+  width: 100%; /* Set image width to 100% of the container */
+  height: 4rem; /* Allow image height to adjust proportionally */
+}
+
+.user-profile a{
+    color: rgb(33, 25, 25);
+
+    
+}
+
+
+
+.user-profile i{
+    margin-left: 2rem;
+    align-content: center;
+}
+
+
+
+@media (max-width: 940px) {
+    .navbar ul {
+        height: auto;
+        color: black;
+        flex-direction: column;
+        display: none;
+    }
+
+    nav ul li a{
+    color: rgb(33, 25, 25);
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+    .navbar ul li {
+        display: block;
+        margin: 1rem;
+    }
+
+    .toggle-button {
+        display: block;
+    }
+}

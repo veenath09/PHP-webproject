@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/newcontact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container
+{
+    margin-top: 50px;
+    max-width: 1500px;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+} 
+h1
+{
+    text-align: center;
+    margin-bottom: 30px;
+} 
+label
+{
+    font-weight: bold;
+}    
+input[type="text"], input[type="email"], textarea
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.radio-group
+{
+    margin-bottom: 20px;
+}
+.radio-group span
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.radio-group input[type="radio"]
+{
+    display: inline-block;
+    margin-right: 5px;
+}
+textarea
+{
+    height: 150px;
+    resize: none;
+}
+input ::placeholder
+{
+    color: #999;
+}
+input[type="submit"]
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}    
+input[type="submit"]:hover
+{
+    background-color: #45a049;
+}    
+.contact-info
+{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 225px;
+    font-size: 2.5vh;
+}
+.contact-info a
+{
+    color: black;
+    text-decoration: none;
+}
+.contact-form
+{
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 665px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.map
+{
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 5vh;
+
+    flex: 1; 
+     min-height: 80vh;
+}
+.map iframe
+{
+    width: 100%;
+    height: 100%;
+}
