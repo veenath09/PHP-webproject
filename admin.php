@@ -1,5 +1,3 @@
-<!--Ekanayake J.K.B
-    It23199262 -->
 
 <?php 
     require 'config.php';

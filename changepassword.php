@@ -1,5 +1,4 @@
-<!--wickramaarachchi V.M
-    It23230460 -->
+
 <?php 
     require 'config.php';
     ini_set('session.gc_maxlifetime', 5000);

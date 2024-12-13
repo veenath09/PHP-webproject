@@ -1,5 +1,4 @@
-<!--Wanasinghe N.K
-    It23221000 -->
+
     <?php
 require 'config.php';
 

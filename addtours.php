@@ -1,5 +1,4 @@
-<!--wickramaarachchi V.M
-    It23230460 -->
+
 <?php
     if (isset($_POST['upload'])) {
         $tourname = $_POST['tourname'];

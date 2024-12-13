@@ -1,5 +1,4 @@
-<!--Nawarathne M.W.J.S.C.B
-    It23223844 -->
+
 <?php 
   session_start();
 ?>

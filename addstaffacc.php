@@ -1,5 +1,4 @@
-<!--De silva M.M
-    It23213258 -->
+
 <?php
 require 'config.php';
 

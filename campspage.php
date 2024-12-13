@@ -1,5 +1,4 @@
-<!--Ekanayake J.K.B
-    It23199262 -->
+
     <?php 
     session_start();
     require 'config.php';

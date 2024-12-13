@@ -1,6 +1,4 @@
 
-<!--wickramaarachchi V.M
-    It23230460 -->
 <?php
     
     session_start();

@@ -1,5 +1,4 @@
-<!--Wickramaarachchi V.M
-    IT23230460 -->
+
 <?php 
     ini_set('session.gc_maxlifetime', 5000);
     session_start();
